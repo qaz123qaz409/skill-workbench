@@ -1,0 +1,16 @@
+# 依赖与构建产物
+node_modules/
+dist/
+*.log
+
+# 本地私有配置（含内网地址/租户清单，不进 git）
+server/local_settings.py
+src/constants/tenants.local.ts
+
+# 系统文件
+.DS_Store
+
+# 运行时产物
+kb_out/
+*.pyc
+__pycache__/
